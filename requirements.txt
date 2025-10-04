@@ -1,0 +1,46 @@
+# Core Web Framework
+fastapi==0.118.0
+uvicorn==0.37.0
+starlette==0.48.0
+
+# LangChain & RAG Components
+langchain==0.3.27
+langchain-community==0.3.30
+langchain-core==0.3.78
+langchain-openai==0.3.34
+langchain-text-splitters==0.3.11
+langsmith==0.4.32
+
+# OpenAI
+openai==2.1.0
+tiktoken==0.11.0
+
+# Vector Database
+faiss-cpu==1.12.0
+numpy==2.3.3
+
+# Configuration & Settings
+python-dotenv==1.1.1
+pydantic==2.11.10
+pydantic-settings==2.11.0
+pydantic_core==2.33.2
+
+# File Upload & Multipart
+python-multipart==0.0.20
+
+# HTTP & Async
+httpx==0.28.1
+httpx-sse==0.4.1
+httpcore==1.0.9
+aiohttp==3.12.15
+anyio==4.11.0
+
+# Utilities
+requests==2.32.5
+PyYAML==6.0.3
+click==8.3.0
+colorama==0.4.6
+
+# Optional: Development tools (uncomment if needed)
+# watchfiles==1.1.0
+# websockets==15.0.1

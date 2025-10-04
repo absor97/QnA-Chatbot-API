@@ -1,0 +1,131 @@
+RAG QUESTION ANSWERING API - EXAMPLE OUTPUT
+============================================
+
+Example 1: Return Policy Question
+----------------------------------
+
+Request:
+POST /ask
+{
+  "question": "What is the return policy?"
+}
+
+Response:
+{
+  "answer": "Our company offers a 30-day money-back guarantee on all products. If you are not completely satisfied with your purchase, you may return the product within 30 days of receipt for a full refund. The product must be in its original condition and packaging. To initiate a return, you need to: 1) Contact customer service at returns@company.com, 2) Provide your order number and reason for return, 3) Receive a return authorization number (RAN), 4) Ship the product back using the prepaid shipping label provided, and 5) The refund will be processed within 5-7 business days after the returned item is received.",
+  "sources": [
+    "company_policies.md"
+  ],
+  "highlighted_answer": "Our company offers a **30-day money-back guarantee on all products.** If you are not completely satisfied with your purchase, you may return the product within 30 days of receipt for a full refund..."
+}
+
+
+Example 2: Shipping Options Question
+-------------------------------------
+
+Request:
+POST /ask
+{
+  "question": "What are the shipping options?"
+}
+
+Response:
+{
+  "answer": "We offer three shipping options: 1) Standard Shipping: 5-7 business days (Free for orders over $50), 2) Express Shipping: 2-3 business days ($15.99), and 3) Overnight Shipping: Next business day ($29.99). All orders are processed within 24 hours on business days. Orders placed on weekends or holidays will be processed the next business day. We ship to all 50 US states and internationally to over 100 countries, with international shipping times varying by location.",
+  "sources": [
+    "company_policies.md"
+  ],
+  "highlighted_answer": null
+}
+
+
+Example 3: Product Information Question
+----------------------------------------
+
+Request:
+POST /ask
+{
+  "question": "Tell me about the Smart Home Hub Pro"
+}
+
+Response:
+{
+  "answer": "The Smart Home Hub Pro is priced at $149.99 and allows you to control all your smart home devices from one central hub. It's compatible with Alexa, Google Home, and Apple HomeKit, and supports up to 100 connected devices. Key features include: voice control integration, a 7-inch HD touchscreen display, a built-in security camera, motion sensors included, and easy setup with a mobile app.",
+  "sources": [
+    "product_information.txt"
+  ],
+  "highlighted_answer": "The Smart Home Hub Pro is priced at **$149.99** and allows you to **control all your smart home devices from one central hub.**"
+}
+
+
+Example 4: Customer Support Question
+-------------------------------------
+
+Request:
+POST /ask
+{
+  "question": "How can I contact customer support?"
+}
+
+Response:
+{
+  "answer": "You can contact customer support through several methods: 1) Phone: 1-800-COMPANY (1-800-266-7269) with immediate response and average wait time of 2 minutes, 2) Email: support@company.com with response within 24 hours, 3) Live Chat: Available on the website during business hours with immediate to 5-minute response time, and 4) Social Media: @CompanyOfficial on Twitter, Facebook, and Instagram with response within 4 hours during business hours. Customer service hours are Monday-Friday 8:00 AM - 9:00 PM EST, Saturday 9:00 AM - 7:00 PM EST, and Sunday 10:00 AM - 6:00 PM EST.",
+  "sources": [
+    "customer_support.txt",
+    "faq.md"
+  ],
+  "highlighted_answer": null
+}
+
+
+Example 5: Warranty Question
+-----------------------------
+
+Request:
+POST /ask
+{
+  "question": "What is the warranty policy?"
+}
+
+Response:
+{
+  "answer": "All products come with a standard 1-year manufacturer's warranty that covers defects in materials and workmanship. Extended warranty options are available for purchase: a 2-Year Extended Warranty for $49.99 provides additional coverage, and a 3-Year Premium Warranty for $99.99 offers comprehensive coverage including accidental damage. The warranty does not cover normal wear and tear, damage caused by misuse or accidents (unless Premium Warranty is purchased), unauthorized repairs or modifications, or cosmetic damage that doesn't affect functionality.",
+  "sources": [
+    "company_policies.md"
+  ],
+  "highlighted_answer": "All products come with a **standard 1-year manufacturer's warranty that covers defects in materials and workmanship.**"
+}
+
+
+Example 6: Refund Processing Question
+--------------------------------------
+
+Request:
+POST /ask
+{
+  "question": "How long does it take to process a refund?"
+}
+
+Response:
+{
+  "answer": "Refunds are typically processed within 5-7 business days after the returned item is received. Depending on your financial institution, it may take an additional 3-5 business days for the credit to appear in your account.",
+  "sources": [
+    "faq.md",
+    "company_policies.md"
+  ],
+  "highlighted_answer": "**Refunds are typically processed within 5-7 business days** after the returned item is received."
+}
+
+
+Health Check Example
+--------------------
+
+Request:
+GET /health
+
+Response:
+{
+  "status": "healthy",
+  "vector_store_initialized": true,
+  "total_documents": 120
+}

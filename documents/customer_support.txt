@@ -1,0 +1,138 @@
+CUSTOMER SUPPORT GUIDE
+
+CONTACT INFORMATION
+===================
+
+Customer Service Hours:
+- Monday - Friday: 8:00 AM - 9:00 PM EST
+- Saturday: 9:00 AM - 7:00 PM EST
+- Sunday: 10:00 AM - 6:00 PM EST
+
+Contact Methods:
+- Phone: 1-800-COMPANY (1-800-266-7269)
+- Email: support@company.com
+- Live Chat: Available on website during business hours
+- Social Media: @CompanyOfficial (Twitter, Facebook, Instagram)
+
+Response Times:
+- Phone: Immediate (average wait time: 2 minutes)
+- Live Chat: Immediate to 5 minutes
+- Email: Within 24 hours
+- Social Media: Within 4 hours during business hours
+
+SUPPORT TIERS
+=============
+
+Level 1 - General Support
+- Order status inquiries
+- Shipping information
+- Account questions
+- Password resets
+- General product questions
+
+Level 2 - Technical Support
+- Product setup assistance
+- Troubleshooting
+- Compatibility questions
+- Software/firmware updates
+- Connection issues
+
+Level 3 - Advanced Technical Support
+- Complex technical issues
+- Integration with third-party systems
+- Custom configurations
+- Developer API support
+- Enterprise solutions
+
+COMMON ISSUES & SOLUTIONS
+=========================
+
+Issue: Product won't turn on
+Solution:
+1. Check if product is charged/has batteries
+2. Verify power cable is properly connected
+3. Try a different power outlet
+4. Check for physical damage
+5. Attempt factory reset (refer to manual)
+
+Issue: Can't connect to WiFi
+Solution:
+1. Verify WiFi network is 2.4GHz (many smart devices don't support 5GHz)
+2. Check WiFi password is correct
+3. Move device closer to router
+4. Restart both device and router
+5. Ensure router firmware is up to date
+
+Issue: App won't sync with device
+Solution:
+1. Check Bluetooth/WiFi is enabled on phone
+2. Force close and reopen the app
+3. Ensure app has necessary permissions (Location, Bluetooth)
+4. Update app to latest version
+5. Unpair and re-pair the device
+
+Issue: Received wrong item
+Solution:
+1. Contact support immediately with order number
+2. Provide photo of received item
+3. We'll send correct item via expedited shipping
+4. Return label will be provided for wrong item
+5. No charge for return shipping
+
+ESCALATION PROCESS
+==================
+
+If your issue isn't resolved:
+
+1. Request to speak with a supervisor
+2. Ask for a case number for tracking
+3. Request email confirmation of issue and resolution timeline
+4. If still unresolved, request escalation to management
+5. As a last resort, formal complaint can be filed at complaints@company.com
+
+We aim to resolve 95% of issues on first contact. Average resolution time: 15 minutes for simple issues, 48 hours for complex technical problems.
+
+SELF-SERVICE RESOURCES
+======================
+
+Available 24/7 on our website:
+
+- Knowledge Base: 500+ articles covering common topics
+- Video Tutorials: Step-by-step guides for products
+- Community Forum: Ask questions and share solutions
+- Product Manuals: Downloadable PDFs for all products
+- Troubleshooting Wizard: Interactive tool to diagnose issues
+
+WARRANTY CLAIMS
+===============
+
+To file a warranty claim:
+
+1. Have your order number ready
+2. Describe the issue in detail
+3. Provide photos/videos if applicable
+4. Support will verify warranty coverage
+5. Approved claims receive:
+   - Repair instructions and prepaid shipping label, OR
+   - Replacement product shipped immediately, OR
+   - Full refund if product discontinued
+
+Warranty claims are processed within 48 hours.
+
+FEEDBACK & COMPLAINTS
+=====================
+
+We value your feedback:
+
+Positive Feedback:
+- Leave a product review on our website
+- Share on social media (tag us!)
+- Refer friends (you both get 10% off)
+
+Complaints:
+- Contact support first for immediate resolution
+- Formal complaints: complaints@company.com
+- We respond to all complaints within 24 hours
+- Executive team reviews all complaints weekly
+
+Your satisfaction is our priority. If we fail to meet your expectations, let us know so we can make it right.
