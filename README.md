@@ -72,7 +72,7 @@ A production-ready Retrieval-Augmented Generation (RAG) API built with FastAPI, 
 1. **Clone the repository**
 ```bash
 git clone <repository-url>
-cd TGN_Data
+cd QnA-Chatbot-API
 ```
 
 2. **Create virtual environment**
